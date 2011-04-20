@@ -3,7 +3,7 @@ package reactor;
 public class Message {
 
 	private int type_;
-	public String msg_;
+	private String msg_;
 	
 	public int getType()
 	{

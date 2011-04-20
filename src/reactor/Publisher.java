@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Publisher {
 
-	protected List<Handler> subs_; //list of subscribers for this publisher
+	private List<Handler> subs_; //list of subscribers for this publisher
 	
 	public Publisher()
 	{
